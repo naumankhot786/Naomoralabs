@@ -158,7 +158,13 @@ chatBtn.onclick = () => {
   }
 };
 window.addEventListener("load", function () {
+
     setTimeout(function () {
-        document.getElementById("loader").style.display = "none";
+
+        const loader = document.getElementById("loader");
+        loader.classList.add("loader-hide");
+        loader.style.display = "none";
+
     }, 1500);
+
 });
