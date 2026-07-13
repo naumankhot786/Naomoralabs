@@ -515,14 +515,6 @@ outline:none;
 .about-card,
 .service-card,
 .portfolio-card{
-    opacity: 0;
-    transform: translateY(40px);
-    transition: all .7s ease;
+    opacity: 1 !important;
+    transform: none !important;
 }
-
-.about-card.show,
-.service-card.show,
-.portfolio-card.show{
-    opacity: 1;
-    transform: translateY(0);
-   }
