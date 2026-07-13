@@ -147,3 +147,21 @@ if (contactForm) {
     });
 
 }
+// AI Chat Toggle
+
+const chatToggle = document.getElementById("chat-toggle");
+const chatBox = document.getElementById("chat-box");
+
+if (chatToggle && chatBox) {
+
+    chatToggle.onclick = function () {
+
+        if (chatBox.style.display === "block") {
+            chatBox.style.display = "none";
+        } else {
+            chatBox.style.display = "block";
+        }
+
+    };
+
+    }
