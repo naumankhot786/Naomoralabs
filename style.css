@@ -568,8 +568,9 @@ font-size:28px;
 0%{transform:rotate(0deg);}
 100%{transform:rotate(360deg);}
 }
-
 .loader-hide{
-opacity:0;
-visibility:hidden;
-   }
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    display: none;
+}
