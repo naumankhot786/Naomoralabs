@@ -112,35 +112,64 @@ animation:float 3s ease-in-out infinite;
 }
 
 .hero h1{
-font-size:60px;
+font-size:64px;
 font-weight:800;
 max-width:900px;
 margin-bottom:20px;
-line-height:1.2;
+line-height:1.15;
 }
-
+.hero h1 span{
+    color:#00d4ff;
+}
 .hero p{
 font-size:20px;
-color:#d1d5db;
-max-width:700px;
-margin-bottom:40px;
+color:#cbd5e1;
+max-width:750px;
+line-height:1.8;
+margin:25px auto 40px;
 }
 
 .buttons{
 display:flex;
-gap:20px;
+gap:25px;
+margin-top:15px;
 flex-wrap:wrap;
 justify-content:center;
 }
 
 .btn,
 .btn2{
-    padding:16px 36px;
+    padding:18px 38px;
     border-radius:50px;
     text-decoration:none;
     font-weight:700;
-    transition:.3s;
-    box-shadow:0 10px 30px rgba(0,0,0,.25);
+    font-size:16px;
+    transition:.35s ease;
+    display:inline-block;
+    border:2px solid transparent;
+}
+
+.btn{
+    background:#00d4ff;
+    color:#05121f;
+    box-shadow:0 10px 30px rgba(0,212,255,.35);
+}
+
+.btn:hover{
+    transform:translateY(-4px);
+    box-shadow:0 15px 40px rgba(0,212,255,.5);
+}
+
+.btn2{
+    background:transparent;
+    color:#fff;
+    border:2px solid #00d4ff;
+}
+
+.btn2:hover{
+    background:#00d4ff;
+    color:#05121f;
+    transform:translateY(-4px);
 }
 @keyframes float{
 
