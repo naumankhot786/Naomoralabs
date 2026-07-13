@@ -461,9 +461,30 @@ z-index:9999;
 transition:.3s;
 }
 
+/* WhatsApp Button */
+.whatsapp{
+position:fixed;
+right:20px;
+bottom:90px;
+width:60px;
+height:60px;
+border-radius:50%;
+background:#25D366;
+color:#fff;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:30px;
+text-decoration:none;
+box-shadow:0 8px 25px rgba(37,211,102,.4);
+z-index:9999;
+transition:.3s;
+}
 .whatsapp:hover{
 transform:scale(1.1);
-   }
+}
+
+/* AI Button */
 #chat-toggle{
 position:fixed;
 left:20px;
@@ -471,14 +492,14 @@ bottom:20px;
 width:60px;
 height:60px;
 border-radius:50%;
-background:#0ea5e9;
+background:#00a8ff;
 display:flex;
 align-items:center;
 justify-content:center;
 font-size:30px;
 cursor:pointer;
 z-index:9999;
-box-shadow:0 0 20px rgba(14,165,233,.4);
+box-shadow:0 8px 25px rgba(0,168,255,.4);
 }
 
 #chat-box{
@@ -486,6 +507,7 @@ position:fixed;
 left:20px;
 bottom:95px;
 width:320px;
+max-width:90%;
 background:#111827;
 border-radius:18px;
 overflow:hidden;
@@ -495,9 +517,10 @@ z-index:9999;
 }
 
 .chat-header{
-background:#0ea5e9;
+background:#00a8ff;
 padding:15px;
 font-weight:700;
+color:#fff;
 }
 
 .chat-body{
@@ -511,12 +534,6 @@ width:100%;
 padding:14px;
 border:none;
 outline:none;
+background:#1f2937;
+color:#fff;
    }
-.about-card,
-.service-card,
-.portfolio-card {
-    opacity: 1 !important;
-    visibility: visible !important;
-    display: block !important;
-    transform: translateY(0) !important;
-}
