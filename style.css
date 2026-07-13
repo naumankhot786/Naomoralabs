@@ -549,3 +549,24 @@ transition:all .8s ease;
 opacity:1;
 transform:translateY(0);
    }
+html{
+    scroll-behavior:smooth;
+}
+
+::selection{
+    background:#00d4ff;
+    color:#000;
+}
+
+::-webkit-scrollbar{
+    width:8px;
+}
+
+::-webkit-scrollbar-track{
+    background:#0b1020;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#00d4ff;
+    border-radius:20px;
+   }
