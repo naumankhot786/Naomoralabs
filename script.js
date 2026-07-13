@@ -157,3 +157,12 @@ chatBtn.onclick = () => {
     chatBox.style.display = "block";
   }
 };
+window.addEventListener("load", function () {
+
+setTimeout(function(){
+
+document.getElementById("loader").classList.add("loader-hide");
+
+},1500);
+
+});
