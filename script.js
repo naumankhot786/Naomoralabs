@@ -147,3 +147,13 @@ if (contactForm) {
     });
 
 }
+const chatBtn = document.getElementById("chat-toggle");
+const chatBox = document.getElementById("chat-box");
+
+chatBtn.onclick = () => {
+  if (chatBox.style.display === "block") {
+    chatBox.style.display = "none";
+  } else {
+    chatBox.style.display = "block";
+  }
+};
